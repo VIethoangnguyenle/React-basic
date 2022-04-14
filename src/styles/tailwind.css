@@ -11,5 +11,55 @@
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
+@import '~antd/dist/antd.css';
+
+* {
+    font-family: '-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif';
+}
 
 /* Your own custom utilities */
+.ant-layout-header {
+    background-color: #f8f8f8;
+}
+
+.ant-anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
+}
+
+.ant-anchor-ink::before {
+    display: none;
+}
+
+.ant-anchor-link {
+    padding-left: 2rem;
+}
+
+.slick-dots li button {
+    background: #000 !important;
+}
+
+.slick-dots li.slick-active button {
+    background: #1890ff !important;
+}
+.ant-carousel {
+    height: 100%;
+}
+.slick-slider {
+    position: absolute;
+    vertical-align: middle;
+    padding-top: 5%;
+}
+.slick-slide {
+    left: 0
+}
+/* .ant-layout-content {
+    height: max-content;
+} */
+@layer components {
+    .centerPage {
+        @apply m-auto max-w-7xl
+    }
+}

@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('/src/assets/bg-hero.jpg')"
+      }
+    },
   },
   plugins: [],
   content: [
