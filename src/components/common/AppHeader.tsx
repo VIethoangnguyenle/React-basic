@@ -21,7 +21,7 @@ export const AppHeader = () => {
   };
   return (
     <>
-      <div className='w-screen bg-[#f8f8f8]'>
+      <div className='w-screen bg-[#867474]'>
         <div className='py-5 centerPage'>
           <div className='flex flex-row items-center justify-between'>
             <div className='flex justify-between items-center'>

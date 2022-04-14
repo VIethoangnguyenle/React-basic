@@ -40,7 +40,7 @@ export const Feature = () => {
         <div id='feature' className='block h-[90vh]'>
             <div className='centerPage'>
                 <div className='mt-12'>
-                    <div className='flex flex-col justify-center items-center after:w-16 after:bg-[#1890ff] after:h-[0.2rem] after:content-[""] after:m-8'>
+                    <div className='flex flex-col justify-center items-center lineBreak'>
                         <h1 className='font-semibold text-3xl p-1'>Key Features and Benefits</h1>
                         <span className='p-1 mt-1 text-lg'>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</span>
                     </div>
@@ -53,7 +53,7 @@ export const Feature = () => {
                                     <Col id={item.key} span='8'>
                                         <Card
                                             hoverable
-                                            cover={<img src={require('../../assets/modern-design.jpg')}></img>}
+                                            cover={<img src={require('../../assets/advanced-option.jpg')}></img>}
                                         >
                                             <Meta title={item.title}></Meta>
                                         </Card>
@@ -62,6 +62,9 @@ export const Feature = () => {
                             );
                         })}
                     </Row>
+                    <div className="w-screen h-[100vh] bg-(url('/src/asset/test.png'))">
+                        <a>Hello</a>
+                    </div>
                 </div>
 
             </div>

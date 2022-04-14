@@ -62,4 +62,16 @@
     .centerPage {
         @apply m-auto max-w-7xl
     }
+    .lineBreak {
+        @apply after:w-16 after:bg-[#1890ff] after:h-[0.2rem] after:content-[""] after:m-8
+    }
+    .flexColCenter {
+        @apply flex flex-col justify-center items-center
+    }
+    .flexRowCenter {
+        @apply flex flex-row justify-center items-center
+    }
+    .titleText {
+        @apply font-semibold text-3xl p-1
+    }
 }
